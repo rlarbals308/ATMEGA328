@@ -1,0 +1,30 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jul-16-2019 at 17:08:07 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ATMEGA328';
+ POST_TIME='Apr 28 2014 16:45:46';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ IC3 'ATMEGA48-MLF32_0_MY_ATMEGA328P_':;
+
+SECTION_NUMBER 1
+ '@ATMEGA328.SCHEMATIC1(SCH_1):INS2153@MY_ATMEGA128.ATMEGA48-MLF32_0.NORMAL(CHIPS)':
+ C_PATH='@atmega328.schematic1(sch_1):ins2153@my_atmega128.\atmega48-mlf32_0.normal\(chips)',
+ P_PATH='@atmega328.schematic1(sch_1):page1_ins2153@my_atmega128.\atmega48-mlf32_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC4 'ATMEGA48-MLF32_0_MY_ATMEGA328P_':;
+
+SECTION_NUMBER 1
+ '@ATMEGA328.SCHEMATIC1(SCH_1):INS2257@MY_ATMEGA128.ATMEGA48-MLF32_0.NORMAL(CHIPS)':
+ C_PATH='@atmega328.schematic1(sch_1):ins2257@my_atmega128.\atmega48-mlf32_0.normal\(chips)',
+ P_PATH='@atmega328.schematic1(sch_1):page1_ins2257@my_atmega128.\atmega48-mlf32_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

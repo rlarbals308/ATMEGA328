@@ -1,0 +1,17 @@
+{ Using PSTWRITER 16.6.0 d001Jul-16-2019 at 17:08:06 }
+
+#1 WARNING(ORCAP-36006): Part Name "ATMEGA48-MLF32_0_MY_ATMEGA328P_ATMEGA48-MLF32" is renamed to "ATMEGA48-MLF32_0_MY_ATMEGA328P_".
+#2 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#3" as visible power pin of same name already exists in Package ATmega48-MLF32_0 , IC3: SCHEMATIC1, PAGE1 (2.30, 2.10).
+#3 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package ATmega48-MLF32_0 , IC3: SCHEMATIC1, PAGE1 (2.30, 2.10).
+#4 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#6" as visible power pin of same name already exists in Package ATmega48-MLF32_0 , IC3: SCHEMATIC1, PAGE1 (2.30, 2.10).
+#5 WARNING(ORCAP-36042): Pin "VCC" is renamed to "VCC#5" as visible power pin of same name already exists in Package ATmega48-MLF32_0 , IC3: SCHEMATIC1, PAGE1 (2.30, 2.10).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro/pstchip.dat
+
+Loading... \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro/pstchip.dat
+
+Loading... \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro/pstxprt.dat
+
+Loading... \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro/pstxnet.dat
+packaging the design view...

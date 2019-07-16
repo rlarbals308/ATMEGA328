@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : ATMEGA328.brd                                 )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Tue Jul 16 17:08:08 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         '\\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro'
+Design Directory:            '.'
+Old design name:             'ATMEGA328.brd'
+New design name:             'ATMEGA328.brd'
+
+CmdLine: netrev.exe -y 1 -n -i \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro\ATMEGA328.brd \\USER-PC\USERS\USER\DESKTOP\ORCAD WORK\ATMEGA\allegro\ATMEGA328.brd
+
+------ Preparing to read pst files ------
+
+Starting to read //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstchip.dat 
+   Finished reading //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstchip.dat (00:00:00.03)
+Starting to read //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstxprt.dat 
+   Finished reading //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstxprt.dat (00:00:00.00)
+Starting to read //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstxnet.dat 
+   Finished reading //USER-PC/USERS/USER/DESKTOP/ORCAD WORK/ATMEGA/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/Users/user/Desktop/orcad work/my_libs/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/Users/user/Desktop/orcad work/my_libs/pcb/symbols 
+           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/USERS/USER/DESKTOP/ORCAD WORK/PCD_LIB/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/Users/user/Desktop/orcad work/my_libs/pcb/padstacks 
+           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/USERS/USER/DESKTOP/ORCAD WORK/PCD_LIB/PAD/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 16 17:08:08 2019
+   DESIGN NAME : 'ATMEGA328'
+   PACKAGING ON Apr 28 2014 16:45:46
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:34
+elapsed time  0:00:00
+
